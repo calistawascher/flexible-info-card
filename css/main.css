@@ -1,0 +1,46 @@
+html {
+    box-sizing: border-box;
+    font-family: Open Sans;
+    line-height: 1.5;
+  }
+
+  *, *::before, *::after {
+    box-sizing: inherit;
+  }
+
+body {
+  margin: 0;
+}
+
+section {
+  background-color: #ccc;
+  padding: 2rem;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 0 1.5rem;
+}
+
+img {
+  width: 5rem;
+  margin-right: 1.5rem;
+}
+
+h2 {
+  text-align: center;
+}
+
+h3 {
+  margin: 0;
+}
+
+h4 {
+  margin: 0;
+}
+
+hgroup {
+
+}
