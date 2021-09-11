@@ -1,12 +1,12 @@
 html {
-    box-sizing: border-box;
-    font-family: Open Sans;
-    line-height: 1.5;
-  }
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.5;
+}
 
-  *, *::before, *::after {
-    box-sizing: inherit;
-  }
+*, *::before, *::after {
+  box-sizing: inherit;
+}
 
 body {
   margin: 0;
@@ -41,6 +41,9 @@ h4 {
   margin: 0;
 }
 
-hgroup {
-
+a {
+  background-color: #444;
+  color: #fff;
+  text-decoration: none;
+  padding: .5rem;
 }
